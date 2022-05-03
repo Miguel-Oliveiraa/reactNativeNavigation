@@ -55,3 +55,8 @@ public class MainActivity extends ReactActivity {
     super.invokeDefaultOnBackPressed();
   }
 }
+
+@Override
+protected void onCreate(Bundle savedInstanceState) {
+  super.onCreate(null);
+}
